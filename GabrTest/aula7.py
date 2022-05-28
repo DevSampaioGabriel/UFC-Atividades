@@ -47,6 +47,7 @@ else:
     print(f'{time[0]} não tem mundial')
 '''
 #Treino
+'''
 vogais = ('a', 'e', 'i', 'o', 'u')
 listaDePalavras = []
 novaPalavra = '1'
@@ -64,4 +65,4 @@ for palavras in tuplaDePalavras:
             string += letra + ' '
     print(palavras, 'possui as seguintes vogais: ', string)
     string = ''   
-
+'''
