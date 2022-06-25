@@ -41,13 +41,12 @@ print(fatorial(5, True))
 #Faça uma função que desenhe um retangulo que receba o número de linhas
 def retangulo (n_linhas = 5, n_colunas = 5):
     for i in range(n_linhas+2):
-        
         if i == 0 or i == n_linhas+1:
             for j in range(n_colunas+2):
                 print(' - ', end = '')
             print('')
         else: 
-            for j in range(n_coluna+2):
+            for j in range(n_colunas+2):
                 if j == 0 or j == n_colunas+1:
                     print(' | ', )
             
